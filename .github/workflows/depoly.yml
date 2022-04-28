@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: "fcad6a0f-d468-41d6-a2cc-0195d9a12ac4"
+          heroku_app_name: "learninglablauncher"
+          heroku_email: "ecoad@lumination.com.au"
