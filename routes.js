@@ -38,14 +38,4 @@ module.exports = (app) => {
         var file = __dirname + '/applications/SetVol.zip';
         res.download(file);
     });
-
-    //Hosting for ControlMyStation
-    app.get('/program-controlmymonitor-version', (req, res) => {
-        res.send('1.0.0 https://learninglablauncher.herokuapp.com/program-controlmymonitor 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
-    });
-
-    app.get('/program-controlmymonitor', (req, res) => {
-        var file = __dirname + '/applications/controlmymonitor.zip';
-        res.download(file);
-    });
 };
