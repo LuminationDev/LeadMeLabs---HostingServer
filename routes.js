@@ -1,4 +1,14 @@
 module.exports = (app) => {
+    //Hosting the launcher
+    app.get('/program-launcher-version', (req, res) => {
+        res.send('1.0.1 https://learninglablauncher.herokuapp.com/program-launcher 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
+    });
+
+    app.get('/program-launcher', (req, res) => {
+        var file = __dirname + '/applications/Launcher.zip';
+        res.download(file);
+    });
+    
     //Hosting the nuc
     app.get('/program-nuc-version', (req, res) => {
         res.send('1.0.0 https://learninglablauncher.herokuapp.com/program-nuc 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
