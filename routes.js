@@ -1,7 +1,7 @@
 module.exports = (app) => {
     //Hosting the launcher
     app.get('/program-launcher-version', (req, res) => {
-        res.send('1.0.1 https://learninglablauncher.herokuapp.com/program-launcher 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
+        res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
 
     app.get('/program-launcher', (req, res) => {
@@ -11,7 +11,7 @@ module.exports = (app) => {
     
     //Hosting the nuc
     app.get('/program-nuc-version', (req, res) => {
-        res.send('1.0.1 https://learninglablauncher.herokuapp.com/program-nuc 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
+        res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
 
     app.get('/program-nuc', (req, res) => {
@@ -21,9 +21,9 @@ module.exports = (app) => {
 
     //Hosting the station
     app.get('/program-station-version', (req, res) => {
-        res.send('1.0.1 https://learninglablauncher.herokuapp.com/program-station 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
+        res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
-
+    
     app.get('/program-station', (req, res) => {
         var file = __dirname + '/applications/Station.zip';
         res.download(file);
@@ -31,7 +31,7 @@ module.exports = (app) => {
 
     //Hosting steamCMD
     app.get('/program-steamcmd-version', (req, res) => {
-        res.send('1.0.0 https://learninglablauncher.herokuapp.com/program-steamcmd 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
+        res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
 
     app.get('/program-steamcmd', (req, res) => {
@@ -41,7 +41,7 @@ module.exports = (app) => {
 
     //Hosting for SetVol
     app.get('/program-setvol-version', (req, res) => {
-        res.send('1.0.0 https://learninglablauncher.herokuapp.com/program-setvol 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65');
+        res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
 
     app.get('/program-setvol', (req, res) => {
@@ -49,3 +49,9 @@ module.exports = (app) => {
         res.download(file);
     });
 };
+
+//Get the base URL of the current hosting site and return the program route (the queried minus the version string)
+let baseURL = (req) => {
+    let fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+    return baseUrl = fullUrl.replace("-version", "");
+}
