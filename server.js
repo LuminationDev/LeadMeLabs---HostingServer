@@ -19,4 +19,6 @@ app.use(express.json());
 // =============================================================
 require('./routes')(app);
 
+app.use('/static/config-tool', express.static('applications/config-tool'))
+
 app.listen(port, () => console.log(`Listening on port ${port}!`));
