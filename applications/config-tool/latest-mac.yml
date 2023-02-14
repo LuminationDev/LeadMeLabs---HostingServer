@@ -1,0 +1,11 @@
+version: 1.0.3
+files:
+  - url: LeadMeLabs-ConfigTool-1.0.3-mac.zip
+    sha512: UWGx+cIu2mUrgYAgl9v2wkiv50LO3xJr9P0Ucv1yRxKLdBRJBQu0JAS84JWWoAlpoHbNx33zIwaJBEwg0KdDYQ==
+    size: 88846544
+  - url: LeadMeLabs-ConfigTool-1.0.3.dmg
+    sha512: toU1LIGh2n6j+cZr81Lj96r6AJOBbjFxX1Z9a0T2rFSnR46rDLSb6muHiMi6zJnDoh1vwBYO5nGsBIjeOulh/A==
+    size: 91907848
+path: LeadMeLabs-ConfigTool-1.0.3-mac.zip
+sha512: UWGx+cIu2mUrgYAgl9v2wkiv50LO3xJr9P0Ucv1yRxKLdBRJBQu0JAS84JWWoAlpoHbNx33zIwaJBEwg0KdDYQ==
+releaseDate: '2023-02-14T03:33:27.976Z'
