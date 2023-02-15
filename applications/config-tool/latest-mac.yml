@@ -1,11 +1,11 @@
 version: 1.0.4
 files:
   - url: LeadMeLabs-ConfigTool-1.0.4-mac.zip
-    sha512: gK0eWVtztjPs5qMjpPoqt9gIoeSAhCGQIYvDbbEiRPKyfwAOhrZuBiMYUTfPgA0BckNXitPjo2Z0Dk93PgqWGg==
-    size: 88846491
+    sha512: ZZAaXgFDYdP9zSg46PF/clqnSFevnjS2KCQXxnCNfvu/1GakXwf8abmHqcMls+x6c7V0WBYcKZBRS29Rh6irfA==
+    size: 88852305
   - url: LeadMeLabs-ConfigTool-1.0.4.dmg
-    sha512: H1r3fbttkOZJiww7rqhfgfkfwKwZxCux/Y7OMBaMBkagti70IJ9YioX955haN1Cm42cgz9/Rjkj0a+v9io6XsA==
-    size: 91907868
+    sha512: WL1hdXbMW6AcypbZCWiSi8WkixWkG0/F9nVZ5uLIppKrCw9k90wtYgr/W/lsTqi/QSuuF/esG7kv5ZgMWkEQSg==
+    size: 91911451
 path: LeadMeLabs-ConfigTool-1.0.4-mac.zip
-sha512: gK0eWVtztjPs5qMjpPoqt9gIoeSAhCGQIYvDbbEiRPKyfwAOhrZuBiMYUTfPgA0BckNXitPjo2Z0Dk93PgqWGg==
-releaseDate: '2023-02-14T03:53:25.027Z'
+sha512: ZZAaXgFDYdP9zSg46PF/clqnSFevnjS2KCQXxnCNfvu/1GakXwf8abmHqcMls+x6c7V0WBYcKZBRS29Rh6irfA==
+releaseDate: '2023-02-15T22:07:04.938Z'
