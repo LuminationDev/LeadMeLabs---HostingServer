@@ -20,5 +20,6 @@ app.use(express.json());
 require('./routes')(app);
 
 app.use('/static/config-tool', express.static('applications/config-tool'))
+app.use('/static/health-checker', express.static('applications/health-checker'))
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
