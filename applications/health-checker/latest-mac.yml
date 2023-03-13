@@ -1,11 +1,11 @@
-version: 0.0.1
+version: 0.0.2
 files:
-  - url: LeadMeLabs-HealthChecker-0.0.1-mac.zip
-    sha512: 0Vwdrz9CA3c3SXYOMWbOnuKezXPTPv09/ZI5HrANagNFdJg7k9olUEy01RzsT9+JuSNw5ZzwbwA6ZC89hRcPAQ==
-    size: 95743188
-  - url: LeadMeLabs-HealthChecker-0.0.1.dmg
-    sha512: GhQQs9MODKrDnRwNZTOqHll0kn53G581gPqwxuob0pJaY+OyMmXS1U2mno/2qaMZtwnjFSZWmlj1qZokiS85fg==
-    size: 98970737
-path: LeadMeLabs-HealthChecker-0.0.1-mac.zip
-sha512: 0Vwdrz9CA3c3SXYOMWbOnuKezXPTPv09/ZI5HrANagNFdJg7k9olUEy01RzsT9+JuSNw5ZzwbwA6ZC89hRcPAQ==
-releaseDate: '2023-03-08T03:25:39.339Z'
+  - url: LeadMeLabs-HealthChecker-0.0.2-mac.zip
+    sha512: zCMMJGbxuQScz471goFpsjqhZHTHoZYvENauYr/vc6K0/Prz81PTAcDUlClRqS9WO7vxy3xgCxMB2j85nn/z4g==
+    size: 95747555
+  - url: LeadMeLabs-HealthChecker-0.0.2.dmg
+    sha512: gOfUYrfuHQBrX+XJ3dAYnx4ivbuoHGY2FtL58gQ2DNGyIpbCCuLP1a24JhCdPcZpiyhuFcN6cglV8YXwyTTkYg==
+    size: 98973981
+path: LeadMeLabs-HealthChecker-0.0.2-mac.zip
+sha512: zCMMJGbxuQScz471goFpsjqhZHTHoZYvENauYr/vc6K0/Prz81PTAcDUlClRqS9WO7vxy3xgCxMB2j85nn/z4g==
+releaseDate: '2023-03-13T23:17:50.088Z'
