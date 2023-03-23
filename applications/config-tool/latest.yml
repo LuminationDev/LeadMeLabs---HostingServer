@@ -1,8 +1,8 @@
-version: 1.1.1
+version: 1.1.2
 files:
-  - url: LeadMeLabs-ConfigTool Setup 1.1.1.exe
-    sha512: j3+d5tRcYTsyVtZicPkvJI7tH5R6Gj31t5qo45Oo0UltvIWMc1EyQScNq4Nr5k07Z+xRZuqMufW+hqplCQKYuw==
-    size: 71472221
-path: LeadMeLabs-ConfigTool Setup 1.1.1.exe
-sha512: j3+d5tRcYTsyVtZicPkvJI7tH5R6Gj31t5qo45Oo0UltvIWMc1EyQScNq4Nr5k07Z+xRZuqMufW+hqplCQKYuw==
-releaseDate: '2023-03-08T04:12:42.393Z'
+  - url: LeadMeLabs-ConfigTool Setup 1.1.2.exe
+    sha512: KoCCzTqh6f448w/QEevBcrL6ADLksoiYqk3VFVJxwHxZu6cKP6aFqqFbaBdOjyc3GhHJg4iPXs+xSwcv3ACnwQ==
+    size: 71473164
+path: LeadMeLabs-ConfigTool Setup 1.1.2.exe
+sha512: KoCCzTqh6f448w/QEevBcrL6ADLksoiYqk3VFVJxwHxZu6cKP6aFqqFbaBdOjyc3GhHJg4iPXs+xSwcv3ACnwQ==
+releaseDate: '2023-03-23T01:07:03.143Z'
