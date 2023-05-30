@@ -8,7 +8,7 @@ module.exports = (app) => {
         var file = __dirname + '/applications/Launcher.zip';
         res.download(file);
     });
-    
+
     //Hosting the nuc
     app.get('/program-nuc-version', (req, res) => {
         res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
@@ -19,11 +19,21 @@ module.exports = (app) => {
         res.download(file);
     });
 
+    //Hosting the NucDebugger
+    app.get('/program-nucdebugger-version', (req, res) => {
+        res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
+    });
+
+    app.get('/program-nucdebugger', (req, res) => {
+        var file = __dirname + '/applications/NucDebugger.zip';
+        res.download(file);
+    });
+
     //Hosting the station
     app.get('/program-station-version', (req, res) => {
         res.send(`1.0.1 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
-    
+
     app.get('/program-station', (req, res) => {
         var file = __dirname + '/applications/Station.zip';
         res.download(file);
