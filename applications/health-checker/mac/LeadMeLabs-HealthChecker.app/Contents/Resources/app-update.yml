@@ -1,3 +1,0 @@
-provider: generic
-url: https://learninglablauncher.herokuapp.com/static/health-checker
-updaterCacheDirName: leadmelabs-healthchecker-updater

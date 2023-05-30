@@ -1,3 +1,0 @@
-provider: generic
-url: https://learninglablauncher.herokuapp.com/static/config-tool
-updaterCacheDirName: leadmelabs-configtool-updater
