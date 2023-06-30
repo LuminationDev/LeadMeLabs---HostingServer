@@ -48,6 +48,14 @@ module.exports = (app) => {
         var file = __dirname + '/applications/SetVol.zip';
         res.download(file);
     });
+
+    app.get('/static/config-tool/latest.yml', (req, res) => {
+        res.redirect("http://leadmelabs-configtool.herokuapp.com/static/config-tool/latest.yml")
+    });
+
+    app.get('/static/health-checker/latest.yml', (req, res) => {
+        res.redirect("http://leadmelabs-healthchecker.herokuapp.com/static/health-checker/latest.yml")
+    });
 };
 
 //Get the base URL of the current hosting site and return the program route (the queried minus the version string)
