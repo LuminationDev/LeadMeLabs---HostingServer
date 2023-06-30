@@ -49,12 +49,12 @@ module.exports = (app) => {
         res.download(file);
     });
 
-    app.get('/static/config-tool/latest.yml', (req, res) => {
-        res.redirect("http://leadmelabs-configtool.herokuapp.com/static/config-tool/latest.yml")
+    app.get('/static/config-tool/*', (req, res) => {
+        res.redirect("http://leadmelabs-configtool.herokuapp.com" + req.url)
     });
 
-    app.get('/static/health-checker/latest.yml', (req, res) => {
-        res.redirect("http://leadmelabs-healthchecker.herokuapp.com/static/health-checker/latest.yml")
+    app.get('/static/health-checker/*', (req, res) => {
+        res.redirect("http://leadmelabs-healthchecker.herokuapp.com" + req.url)
     });
 };
 
