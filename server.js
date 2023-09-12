@@ -17,6 +17,7 @@ app.use(express.json());
 
 // Routes - may not be needed in the long run.
 // =============================================================
-require('./routes')(app);
+require('./Routes/routes-electron')(app);
+require('./Routes/routes-leadme')(app);
 
 app.listen(port, () => console.log(`Listening on port ${port}!`));
