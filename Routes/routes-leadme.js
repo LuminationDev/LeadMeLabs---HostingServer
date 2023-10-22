@@ -5,7 +5,7 @@ module.exports = (app) => {
     });
 
     app.get('/program-launcher', (req, res) => {
-        var file = __dirname + '../applications/Launcher.zip';
+        var file = __dirname + '/../applications/Launcher.zip';
         res.download(file);
     });
 
@@ -15,7 +15,7 @@ module.exports = (app) => {
     });
 
     app.get('/program-nuc', (req, res) => {
-        var file = __dirname + '../applications/NUC.zip';
+        var file = __dirname + '/../applications/NUC.zip';
         res.download(file);
     });
 
@@ -25,7 +25,7 @@ module.exports = (app) => {
     });
 
     app.get('/program-nucdebugger', (req, res) => {
-        var file = __dirname + '../applications/NucDebugger.zip';
+        var file = __dirname + '/../applications/NucDebugger.zip';
         res.download(file);
     });
 
@@ -35,7 +35,7 @@ module.exports = (app) => {
     });
 
     app.get('/program-station', (req, res) => {
-        var file = __dirname + '../applications/Station.zip';
+        var file = __dirname + '/../applications/Station.zip';
         res.download(file);
     });
 
@@ -45,7 +45,7 @@ module.exports = (app) => {
     });
 
     app.get('/program-steamcmd', (req, res) => {
-        var file = __dirname + '../applications/steamcmd.zip';
+        var file = __dirname + '/../applications/steamcmd.zip';
         res.download(file);
     });
 
@@ -55,7 +55,7 @@ module.exports = (app) => {
     });
 
     app.get('/program-setvol', (req, res) => {
-        var file = __dirname + '../applications/SetVol.zip';
+        var file = __dirname + '/../applications/SetVol.zip';
         res.download(file);
     });
 };
