@@ -11,7 +11,7 @@ module.exports = (app) => {
 
     //Hosting the nuc
     app.get('/program-nuc-version', (req, res) => {
-        res.send(`1.1.22 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
+        res.send(`1.1.23 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
 
     app.get('/program-nuc', (req, res) => {
@@ -31,7 +31,7 @@ module.exports = (app) => {
 
     //Hosting the station
     app.get('/program-station-version', (req, res) => {
-        res.send(`1.1.22 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
+        res.send(`1.1.27 ${baseURL(req)} 8e619a0ea8c776bff9d8bb3c34a68bed11ff6e65`);
     });
 
     app.get('/program-station', (req, res) => {
